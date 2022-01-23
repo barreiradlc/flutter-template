@@ -1,0 +1,6 @@
+ {
+     "helloWorld": "Olá, direto de nosso template!",
+     "@helloWorld": {
+         "description": "Saudações em português afim e provar que está tudo bem com a localização em português"
+     }
+ }

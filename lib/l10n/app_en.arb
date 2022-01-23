@@ -1,0 +1,6 @@
+ {
+     "helloWorld": "Hello from my template!",
+     "@helloWorld": {
+         "description": "The greeting shown that the english localization is working fine"
+     }
+ }
