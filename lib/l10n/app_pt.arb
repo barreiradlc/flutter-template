@@ -1,6 +1,5 @@
  {
-     "helloWorld": "Olá, direto de nosso template!",
-     "@helloWorld": {
-         "description": "Saudações em português afim e provar que está tudo bem com a localização em português"
-     }
+    "helloWorld": "Olá, direto de nosso template!",
+    "darkTheme": "Tema escuro",
+    "lightTheme": "Tema claro"  
  }

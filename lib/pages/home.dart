@@ -17,7 +17,8 @@ class _HomePageState extends State<HomePage> {
     AppLocalizations? localization = AppLocalizations.of(context);
     ThemeProvider theme = Provider.of<ThemeProvider>(context);
 
-    String mode = theme.isDarkTheme ? "Dark" : "Light";
+    String themeName =
+        theme.isDarkTheme ? localization!.darkTheme : localization!.lightTheme;
 
     return Scaffold(
         appBar: AppBar(
@@ -34,13 +35,13 @@ class _HomePageState extends State<HomePage> {
               Column(
                 children: [
                   Icon(theme.isDarkTheme ? Icons.nightlight : Icons.sunny),
-                  Text(mode),
+                  Text(themeName),
                 ],
               ),
               Container(
                 height: 32,
               ),
-              Text(localization!.helloWorld),
+              Text(localization.helloWorld),
             ],
           ),
         ));

@@ -1,10 +1,13 @@
-// ignore_for_file: non_constant_identifier_names
-
 import 'package:flutter/material.dart';
 
 class LightTheme {
   var theme = ThemeData(
-    scaffoldBackgroundColor: Colors.white,
-    colorScheme: ColorScheme.light(),
+    primarySwatch: Colors.grey,
+    primaryColor: Colors.white,
+    brightness: Brightness.light,
+    backgroundColor: const Color(0xFFE5E5E5),
+    accentColor: Colors.black,
+    accentIconTheme: IconThemeData(color: Colors.white),
+    dividerColor: Colors.white54,
   );
 }
